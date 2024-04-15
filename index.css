@@ -21,7 +21,6 @@ nav {
 }
 
 main {
-  display: flex;
   position: absolute;
   left: 5%;
   height: 62%;
@@ -31,7 +30,6 @@ main {
 }
 
 footer {
-  display: flex;
   position: absolute;
   left: 5%;
   height: 8%;
@@ -39,9 +37,42 @@ footer {
   background-color: yellow;
   width: 93%;
 }
+/*forms*/
+form.buscador {
+  border-radius: 50px;
+  height: 30%;
+  width: 65%;
+  top: 2px;
+  margin: 3px;
+  background-color: white;
+}
 
+/*input*/
+
+input.buscador {
+  position: absolute;
+  top: 5%;
+  width: 56%;
+  height: 20%;
+  left: 6%;
+  border: none;
+  outline: none;
+}
+
+/*Botones*/
 button.botonPrincipal {
   margin-bottom: 40px;
+}
+button.buscador {
+  margin: auto;
+  display: flex;
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  top: 0px;
+  margin: 8px;
+  width: 4%;
+  border: 0;
 }
 
 button {
