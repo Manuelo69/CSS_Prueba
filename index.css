@@ -9,12 +9,30 @@ nav {
   position: absolute;
   background-color: #e4dada;
   height: 100%;
-  width: 75px;
+  width: 60px;
   top: 0;
   left: 0;
 }
 
 main {
 }
+
 button {
+  margin: auto;
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  width: 80%;
+  align-content: center;
+  margin-top: 10px;
+}
+
+button img {
+  left: 50%;
+  top: 50%;
+  padding: 4px;
+}
+
+button:hover {
+  background-color: azure;
 }
