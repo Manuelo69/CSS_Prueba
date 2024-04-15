@@ -3,18 +3,45 @@ body {
 }
 
 header {
+  position: absolute;
+  left: 5%;
+  height: 26%;
+  background-color: blue;
+  width: 93%;
 }
 
 nav {
   position: absolute;
   background-color: #e4dada;
   height: 100%;
-  width: 60px;
+  width: 4%;
   top: 0;
   left: 0;
+  position: fixed;
 }
 
 main {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  height: 62%;
+  top: 28%;
+  background-color: red;
+  width: 93%;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  height: 8%;
+  top: 91%;
+  background-color: yellow;
+  width: 93%;
+}
+
+button.botonPrincipal {
+  margin-bottom: 40px;
 }
 
 button {
@@ -24,13 +51,14 @@ button {
   border-radius: 50px;
   width: 80%;
   align-content: center;
-  margin-top: 10px;
+  margin-top: 8px;
+  border: 0;
 }
 
 button img {
   left: 50%;
   top: 50%;
-  padding: 4px;
+  padding: 5px;
 }
 
 button:hover {
