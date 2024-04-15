@@ -1,97 +1,36 @@
 body {
   background-color: rgb(248, 242, 241);
+  display: grid;
+  grid-template-columns: 8% auto;
+  gap: 20px;
+  grid-template-rows: 100%;
 }
 
 header {
-  position: absolute;
-  left: 5%;
-  height: 26%;
-  background-color: blue;
-  width: 93%;
 }
 
 nav {
-  position: absolute;
-  background-color: #e4dada;
-  height: 100%;
-  width: 4%;
-  top: 0;
-  left: 0;
-  position: fixed;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(223, 226, 228);
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  width: 100%;
 }
 
 main {
-  position: absolute;
-  left: 5%;
-  height: 62%;
-  top: 28%;
-  background-color: red;
-  width: 93%;
+  grid-column: 2;
+  grid-row: 1;
 }
 
-footer {
-  position: absolute;
-  left: 5%;
-  height: 8%;
-  top: 91%;
-  background-color: yellow;
-  width: 93%;
-}
-/*forms*/
-form.buscador {
+/*botones*/
+
+nav button {
+  grid-column: 1;
+  margin: 0 auto;
+  padding: 0 auto;
   border-radius: 50px;
-  height: 30%;
-  width: 65%;
-  top: 2px;
-  margin: 3px;
-  background-color: white;
-}
-
-/*input*/
-
-input.buscador {
-  position: absolute;
-  top: 5%;
-  width: 56%;
-  height: 20%;
-  left: 6%;
   border: none;
-  outline: none;
-}
-
-/*Botones*/
-button.botonPrincipal {
-  margin-bottom: 40px;
-}
-button.buscador {
-  margin: auto;
-  display: flex;
-  position: absolute;
-  background-color: whitesmoke;
-  border-radius: 50px;
-  top: 0px;
-  margin: 8px;
-  width: 4%;
-  border: 0;
-}
-
-button {
-  margin: auto;
-  display: flex;
-  background-color: whitesmoke;
-  border-radius: 50px;
-  width: 80%;
-  align-content: center;
-  margin-top: 8px;
-  border: 0;
-}
-
-button img {
-  left: 50%;
-  top: 50%;
-  padding: 5px;
-}
-
-button:hover {
-  background-color: azure;
+  width: 50px;
 }
