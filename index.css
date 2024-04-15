@@ -1,12 +1,20 @@
 body {
-  background-color: rgb(226, 218, 217);
+  background-color: rgb(248, 242, 241);
 }
 
 header {
 }
 
 nav {
+  position: absolute;
+  background-color: #e4dada;
+  height: 100%;
+  width: 75px;
+  top: 0;
+  left: 0;
 }
 
 main {
+}
+button {
 }
