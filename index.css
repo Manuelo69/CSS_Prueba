@@ -46,7 +46,7 @@ main header {
   margin-top: 10px;
   display: grid;
   grid-row: 1;
-  grid-template-columns: 300px auto 150px 60px;
+  grid-template-columns: 300px auto 150px 90px;
   grid-template-rows: 60px;
   justify-items: center;
   align-items: center;
@@ -82,13 +82,29 @@ input.buscador {
   border: 3px solid var(--light-gray);
   border-radius: 80px;
   grid-column: 3;
+  grid-row: 1;
   width: 150px;
   height: 60px;
+  display: grid;
+  grid-template-columns: 60px auto 20px;
+  align-items: center;
+  justify-items: center;
+}
+.nomUsuario {
+  font-size: var(--text-base);
+  text-align: center;
+}
+
+.numNotificaciones {
+  font-size: var(--text-base);
+  border-radius: 80px;
+  background-color: var(--dark-gray);
+  padding: 5px;
 }
 
 .perfil {
   grid-column: 4;
-  width: 65px;
+  width: 80px;
   border-radius: 80px;
   border: 3px solid var(--light-gray);
 }
