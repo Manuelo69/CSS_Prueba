@@ -46,7 +46,7 @@ main header {
   margin-top: 10px;
   display: grid;
   grid-row: 1;
-  grid-template-columns: 300px auto 150px 90px;
+  grid-template-columns: 300px auto 180px 90px;
   grid-template-rows: 60px;
   justify-items: center;
   align-items: center;
@@ -83,10 +83,10 @@ input.buscador {
   border-radius: 80px;
   grid-column: 3;
   grid-row: 1;
-  width: 150px;
+  width: 160px;
   height: 60px;
   display: grid;
-  grid-template-columns: 60px auto 20px;
+  grid-template-columns: 50px auto 30px;
   align-items: center;
   justify-items: center;
 }
@@ -112,7 +112,7 @@ input.buscador {
 .titulo {
   grid-row: 2;
   display: grid;
-  grid-template-columns: 300px auto 200px 150px 150px;
+  grid-template-columns: 300px auto 240px 150px 150px;
   justify-items: center;
   align-items: center;
 }
@@ -131,19 +131,26 @@ input.buscador {
   grid-column: 3;
   height: 60px;
   border-radius: 50px;
-  width: 190px;
+  width: 220px;
   background-color: var(--light-gray);
-  display: grid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: row;
+  gap: 5px;
+}
+
+button.selectorRow {
+  background-color: white;
+  width: 40px;
+  display: flex;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 0.9fr 1.5fr 0.6fr;
-  gap: 2px;
 }
 
 .calendario .texto {
-  grid-column: 2;
-  display: grid;
-  grid-template-rows: 20px 20px;
+  display: flex;
+  flex: column;
   justify-items: center;
   align-items: center;
 }
