@@ -132,7 +132,33 @@ input.buscador {
   height: 60px;
   border-radius: 50px;
   width: 190px;
-  background-color: var(--gray);
+  background-color: var(--light-gray);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 0.9fr 1.5fr 0.6fr;
+  gap: 2px;
+}
+
+.calendario .texto {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 20px 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.textoCalendario p {
+  font-size: var(--text-xs);
+  font-weight: normal;
+}
+
+.tituloCalendario {
+  grid-row: 1;
+}
+
+.contenidoCalendario {
+  grid-row: 2;
 }
 
 .fun {
@@ -141,7 +167,7 @@ input.buscador {
   height: 60px;
   width: 140px;
   border-radius: 50px;
-  background-color: var(--gray);
+  background-color: var(--light-gray);
 }
 
 .exportar {
@@ -150,16 +176,20 @@ input.buscador {
   height: 60px;
   width: 140px;
   border-radius: 50px;
-  background-color: var(--gray);
+  background-color: var(--light-gray);
 }
 
 /*botones*/
 button {
   border-radius: 60px;
   border: none;
-  width: 50px;
+  width: 40px;
   height: 40px;
   background-color: var(--gray);
+}
+
+button img {
+  margin: 0 auto;
 }
 
 nav div button {
