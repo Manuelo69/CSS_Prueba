@@ -40,7 +40,7 @@ main {
   grid-column: 2;
   grid-row: 1;
   display: grid;
-  grid-template-rows: 60px 120px 0.3fr auto 60px;
+  grid-template-rows: 60px 120px 0.3fr auto;
 }
 
 main header {
@@ -301,6 +301,20 @@ section.bloque2 {
   gap: 10px;
 }
 
+.cant {
+  grid-row: 1;
+  grid-column: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darker-gray);
+  padding: 5px;
+  border-radius: 30px;
+  height: 30px;
+  gap: 10px;
+  color: white;
+}
+
 .barra {
   display: flex;
   align-self: flex-end;
@@ -331,10 +345,50 @@ section.bloque2 {
 }
 
 .days {
+  grid-row: 3;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.contenedorSocial {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.contenedorSocial p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 1xp;
+  margin-block-end: 1px;
+}
+
+.cajaContenida {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--gray);
+  height: 90px;
+  margin: 3px;
+  border-radius: 20px;
+}
+
+.verde {
+  background-color: var(--main-green);
+}
+
+.gris {
+  background-color: #ccc;
+}
+
+.oscuro {
+  background-color: var(--dark-gray);
+}
+
+.oscuroMax {
+  background-color: var(--darker-gray);
 }
 
 /*botones*/
