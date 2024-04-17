@@ -272,13 +272,13 @@ section.bloque2 {
 
 .caja2 {
   display: grid;
-  grid-template-rows: 0.1fr auto 0.1fr;
+  grid-template-rows: 0.1fr 1.9fr;
   align-content: space-between;
   align-items: center;
 }
 
 .textoIzquierdo {
-  text-align: center;
+  text-align: left;
   line-height: 10px;
 }
 
@@ -290,6 +290,51 @@ section.bloque2 {
 
 .centrar button {
   margin: 0 5px 0 5px;
+}
+
+.sales {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.1fr 1.7fr 0.2fr;
+  align-content: end;
+  gap: 10px;
+}
+
+.barra {
+  display: flex;
+  align-self: flex-end;
+  grid-row: 2;
+  background-color: var(--gray);
+  border-radius: 20px;
+}
+
+.b1 {
+  height: 200px;
+}
+
+.b2 {
+  height: 150px;
+}
+.b3 {
+  height: 100px;
+}
+.b4 {
+  height: 250px;
+  background-color: var(--main-green);
+}
+.b5 {
+  height: 80px;
+}
+.b6 {
+  height: 150px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*botones*/
