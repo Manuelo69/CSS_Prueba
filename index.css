@@ -265,10 +265,8 @@ section.bloque2 {
   background-color: var(--light-gray);
   border-radius: 50px;
   padding: 15px;
-  width: 0.9fr;
   display: flex;
   flex-direction: column;
-  flex: wrap;
 }
 
 .negro {
