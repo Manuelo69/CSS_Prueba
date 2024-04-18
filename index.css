@@ -162,10 +162,6 @@ input.buscador {
   gap: 5px;
 }
 
-/* 
-  aplica la correction a todos los botones y cosas descentradas
-*/
-
 button.selectorRow {
   background-color: white;
   width: 30px;
@@ -174,15 +170,6 @@ button.selectorRow {
   display: flex;
   align-items: center;
   justify-items: center;
-  /* Te falta centrar tanto en vertical como horizontal
-    opcion 1: 
-      display:grid;
-      place-content: center;
-    opcion 2:
-      display: flex;
-      align-items: center;
-      justify-items: center;
-    */
 }
 
 button.selectorRow img {
@@ -205,7 +192,8 @@ button.selectorRow img {
 
 .tituloCalendario {
   grid-row: 1;
-  /*en la plantilla es difente el tamaño y el color de letra de la fecha */
+  font-size: var(--text-base);
+  color: var(--dark-gray);
 }
 
 .contenidoCalendario {
@@ -306,13 +294,6 @@ section.bloque2 {
 }
 
 /* que hace esto? */
-
-.caja2 {
-  display: grid;
-  grid-template-rows: 80px 90px;
-  align-content: space-between;
-  align-items: center;
-}
 
 .textoIzquierdo {
   text-align: left;
