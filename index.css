@@ -1,12 +1,13 @@
 /* al body evitar darle css, lo justo y necesario, 
 como fuentes y color como mucho */
 
+/*Me guardo el comentario para acordarme :)*/
+
 body {
   background-color: white;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   gap: 20px;
-  /* al haber puesto aqui el gap haces que se separe en medio pero no por la derecha
-    prueba a darle padding-inline a lo bloques, header etc o al main y asi te queda correctamente separado. */
   grid-template-columns: 80px auto;
   grid-template-rows: auto;
   margin: 0;
@@ -31,6 +32,7 @@ nav {
   background-color: var(--light-gray);
   display: grid;
   height: 100vh;
+  width: 80px;
   grid-template-columns: auto;
   padding-inline: 20px auto;
 }
@@ -51,8 +53,8 @@ nav div {
 a la hora de hacer responsividad */
 
 main {
-  grid-column: 2;
-  grid-row: 1;
+  width: 1900px;
+  height: 100vh;
   display: grid;
   grid-template-rows: 60px 120px 0.3fr auto;
   padding-inline: 20px auto;
