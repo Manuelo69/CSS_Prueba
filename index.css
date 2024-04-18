@@ -42,10 +42,7 @@ nav {
 
 nav div {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
   flex-direction: column;
-  align-content: space-between;
   margin-top: 10px;
   margin-bottom: 10px;
   /* esto no es del todo lo que buscamos
@@ -474,7 +471,8 @@ nav img {
 nav div button {
   display: flex;
   align-items: center;
-  justify-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 button:hover {
