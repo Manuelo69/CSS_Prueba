@@ -111,33 +111,27 @@ input.buscador {
   width: 160px;
   height: 60px;
   display: flex;
-  /* gap: 6px */
   gap: 6px;
   align-items: center;
-  /* sobra */
 }
 
 .nomUsuario {
   font-size: var(--text-base);
+  border-radius: 50%;
   text-align: center;
 }
 
-/* haz lo mismo que en el avatar para hacerlo redondo */
-
 .numNotificaciones {
   font-size: var(--text-base);
-  border-radius: 50%;
+  border-radius: 9999px;
   background-color: var(--dark-gray);
   padding: 5px;
 }
 
-/* Para que sea circular tienes que darle la misma altura que anchura
-  y un border-radius muy grande 9999px por ejemplo */
-
 .perfil {
   grid-column: 4;
   width: 80px;
-  border-radius: 50%;
+  border-radius: 9999px;
   border: 3px solid var(--light-gray);
 }
 
