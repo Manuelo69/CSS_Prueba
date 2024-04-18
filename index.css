@@ -30,7 +30,10 @@ body {
 
 nav {
   background-color: var(--light-gray);
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   height: 100vh;
   width: 80px;
   grid-template-columns: auto;
@@ -39,10 +42,12 @@ nav {
 
 nav div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
   flex-direction: column;
   align-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /* esto no es del todo lo que buscamos
     si no mas bien que lso iconos del fondo esten pegados abajo con una separacion y 
     y que siepre esten a la misma distantcia de abajo. NO se si me he explicado muy bien
@@ -176,6 +181,7 @@ button.selectorRow {
   border-radius: 30px;
   display: flex;
   align-items: center;
+  justify-items: center;
   /* Te falta centrar tanto en vertical como horizontal
     opcion 1: 
       display:grid;
@@ -461,9 +467,14 @@ button img {
   height: 20px;
 }
 
+nav img {
+  margin: 0 auto;
+}
+
 nav div button {
-  grid-column: 1;
-  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 button:hover {
