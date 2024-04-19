@@ -35,8 +35,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  width: 800px;
-  padding: 10px auto;
+  width: auto;
+  padding: 10px;
   grid-template-columns: auto;
   padding-inline: 20px auto;
 }
@@ -48,7 +48,7 @@ nav div {
   margin-bottom: 10px;
   /* esto no es del todo lo que buscamos
     si no mas bien que lso iconos del fondo esten pegados abajo con una separacion y 
-    y que siepre esten a la misma distantcia de abajo. NO se si me he explicado muy bien
+    y que siepre esten a la misma distancia de abajo. NO se si me he explicado muy bien
     puedes ignorarlo si no te ha quedao claro  */
 }
 
