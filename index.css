@@ -250,6 +250,7 @@ section.bloque2 {
   flex-direction: row;
   gap: 5px;
   justify-content: space-between;
+
 }
 
 .caja {
@@ -284,8 +285,6 @@ section.bloque2 {
   margin-block-start: 8px;
   margin-block-end: 1px;
 }
-
-/* que hace esto? */
 
 .textoIzquierdo {
   text-align: left;
